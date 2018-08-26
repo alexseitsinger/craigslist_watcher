@@ -66,7 +66,7 @@ setup(
     # https://packaging.python.org/specifications/core-metadata/#summary
     #
     # Required
-    description="Returns a list of urls for each new post found on craigslist.",
+    description="Emails a list of urls to new posts found on craigslist page.",
 
     # This is an optional longer description of your project that represents
     # the body of text which users will see when they visit PyPI.
