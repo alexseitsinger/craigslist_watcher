@@ -17,8 +17,8 @@ class Watcher(object):
                        watch_duration=1,
                        watch_interval=30):
         self.url = url
-        self.watch_duration = (watch_duration * 60)
-        self.watch_interval = watch_interval
+        self.watch_duration = (int(watch_duration) * 60)
+        self.watch_interval = int(watch_interval)
         self.results = OrderedDict()
         self.email_from_addr = email_from_addr
         self.email_to_addr = email_to_addr
